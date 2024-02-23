@@ -1,0 +1,101 @@
+@font-face {
+    font-family: myfont;
+    src: url('/public/Font/Bronova\ Regular.ttf');
+}
+
+.option2-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  background-repeat: no-repeat;
+  background: url("/public/Images/Mesa_de_trabajo_1300x-100.jpg");
+  background-size: cover;
+}
+
+.option2-h2{
+    color: #2E4157;
+    text-shadow: 4px 4px 7px #3c5571;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "myfont";
+}
+
+.options2-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.option2-item{
+    background-color: #fffffff2;
+    box-shadow: 3px 3px 3px 3px rgb(203 203 203);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.option2-item:hover{
+    border-radius: 15px;
+    margin: 30px;
+    padding: 40px;
+    text-align: center;
+}
+
+.option2-title{ 
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    font-family: "myfont";
+}
+.option2-description{ 
+    font-size: 20px;
+    color: black;
+    font-family: "myfont";
+}
+
+.option2-img{
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 5px;
+    width: 350px;
+  }
+
+.option2-button{
+    color: #FFFFFF;
+    background-color: #E95654;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-family: "myfont";
+    font-size: 16px;
+}
+.option2-button:hover{
+    background-color: #FFFFFF;
+    color: #E95654;
+    border: 3px solid #E95654;
+    border-radius: 35px;
+    padding: 18px 35px;
+    font-weight: bold;
+    font-family: "myfont";
+    font-size: 18px;
+}
+
+.progress-bar-option2{
+    border: 2px solid #e95654;
+    width: 800px;
+    height: 38px;
+    border-radius: 6px;
+  }
+  
+  .progress-bar-option2::before {
+    content: "";
+    background-color: #e95654;
+    display: block;
+    width: 40%;
+    height: 100%;
+    transition: width 0s;
+  }

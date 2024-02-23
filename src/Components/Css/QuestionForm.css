@@ -1,0 +1,57 @@
+.main-div-QF{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background: url("/public/Images/Mesa_de_trabajo_1300x-100.jpg");
+    background-size: cover;
+    
+}
+.content-div-QF{
+    background-color: #fffffff2;
+    box-shadow: 3px 3px 3px 3px rgb(203 203 203);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.QF-h2{
+    color: #2E4157;
+  text-shadow: 4px 4px 7px #3c5571;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "myfont";
+}
+.C-d{
+width: 800px;
+margin-top: 20px;
+}
+
+.button-QF-1{
+    width: 800px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.button-QF-2{
+    width: 800px;
+}
+
+.progress-bar-QF{
+    border: 2px solid #e95654;
+  width: 800px;
+  height: 38px;
+  border-radius: 6px;
+  }
+  
+  .progress-bar-QF::before {
+    content: "";
+    background-color: #e95654;
+    display: block;
+    width: 80%;
+    height: 100%;
+    transition: width 0s;
+  }

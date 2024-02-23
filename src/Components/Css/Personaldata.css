@@ -1,0 +1,77 @@
+.main-div-personaldata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background: url("/public/Images/Mesa_de_trabajo_1300x-100.jpg");
+  background-size: cover;
+}
+
+.content-div-persoanldata{
+  background-color: #fffffff2;
+    box-shadow: 3px 3px 3px 3px rgb(203 203 203);
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.personaldata-h2{
+  color: #2E4157;
+  text-shadow: 4px 4px 7px #3c5571;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "myfont";
+}
+
+.C-d {
+  width: 800px;
+  margin-top: 20px;
+}
+
+.button-p {
+  margin-top: 30px;
+  height: 54px;
+  width: 800px;
+  color: #FFFFFF;
+  background-color: #E95654;
+  border: 3px solid #FFFFFF;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-weight: bold;
+    font-family: "myfont";
+    font-size: 16px;
+}
+
+.button-p:hover{
+  width: 800px;
+  height: 60px;
+  border-radius: 35px;
+    padding: 18px 35px;
+  background-color: #FFFFFF;
+    color: #E95654;
+    border: 3px solid #E95654;
+    border-radius: 35px;
+    font-weight: bold;
+    font-family: "myfont";
+    font-size: 18px;
+}
+
+.progress-bar-personaldata{
+  border: 2px solid #e95654;
+  width: 800px;
+  height: 38px;
+  border-radius: 6px;
+}
+
+.progress-bar-personaldata::before {
+  content: "";
+    background-color: #e95654;
+    display: block;
+    width: 0%;
+    height: 100%;
+    transition: width 0s;
+}
